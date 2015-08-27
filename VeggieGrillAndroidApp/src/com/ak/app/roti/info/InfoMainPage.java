@@ -75,16 +75,17 @@ public class InfoMainPage {
 				.findViewById(R.id.infomainpage_text_cleanse);
 		TextView faqText = (TextView) mParentLayout
 				.findViewById(R.id.infomainpage_text_faq);
-//		TextView infomainpage_text_tutorial = (TextView) mParentLayout
-//				.findViewById(R.id.infomainpage_text_tutorial);
+		TextView my_account_text_tutorial = (TextView) mParentLayout
+				.findViewById(R.id.myaccount_text);
 		TextView infomainpage_refer_friend = (TextView) mParentLayout
 				.findViewById(R.id.infomainpage_refer_friend);
 		TextView infomainpage_activity_history = (TextView) mParentLayout
 				.findViewById(R.id.infomainpage_activity_history);
-		TextView infomainpage_text_order_online = (TextView) mParentLayout
-				.findViewById(R.id.infomainpage_text_order_online);
+//		TextView infomainpage_text_order_online = (TextView) mParentLayout
+//				.findViewById(R.id.infomainpage_text_order_online);
 		TextView infomainpage_social_feed = (TextView) mParentLayout
 				.findViewById(R.id.infomainpage_social_feed);
+		
 
 		RelativeLayout backarrow;
 		backarrow=(RelativeLayout)mParentLayout.findViewById(R.id.backarrow);
@@ -153,7 +154,7 @@ public class InfoMainPage {
 		
 		
 		
-//		AppConstants.gothamNarrowBookTextView(infomainpage_text_tutorial, 16, AppConstants.COLORRGRAY,mHomePage.getAssets());
+		AppConstants.gothamNarrowBookTextView(my_account_text_tutorial, 16, AppConstants.COLORRGRAY,mHomePage.getAssets());
 		
 		
 		
@@ -179,8 +180,8 @@ public class InfoMainPage {
 				.findViewById(R.id.referFriendButton);
 		RelativeLayout activityHistoryBtn = (RelativeLayout) mParentLayout
 				.findViewById(R.id.activityHistoryBtn);
-//		RelativeLayout tutorialButton = (RelativeLayout) mParentLayout
-//				.findViewById(R.id.tutorialButton);
+		RelativeLayout myAccountButton = (RelativeLayout) mParentLayout
+				.findViewById(R.id.myAccountBtn);
 		RelativeLayout socializeButton = (RelativeLayout) mParentLayout
 				.findViewById(R.id.socializeButton);
 		RelativeLayout howToCleanseButton = (RelativeLayout) mParentLayout
@@ -286,12 +287,12 @@ public class InfoMainPage {
 							AppConstants.ERRORLOCATIONSERVICES, mHomePage);
 			}
 		});
-//		tutorialButton.setOnClickListener(new OnClickListener() {
-//			@Override
-//			public void onClick(View v) {
-//				Info.getInstance().showHowTo();
-//			}
-//		});
+		myAccountButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Info.getInstance().showMyAccount();
+			}
+		});
 
 		promoCodeButton.setOnClickListener(new OnClickListener() {
 			@Override

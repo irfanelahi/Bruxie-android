@@ -290,6 +290,14 @@ public  void onContactUsCreate() {
 	// setViewParams("INFO", infoParentLayout, "showSnapStart", infoViewList);
 	// }
 
+	public void showMyAccount() {
+		SettingInfo InfoView = SettingInfo.getInstance();
+		RelativeLayout infoParentLayout = InfoView.setInflater(mInflater);
+		InfoView.onCreate();
+		setViewParams("INFO", infoParentLayout, "showSettingsPage",
+				infoViewList);
+	}
+	
 	public void showHowTo() {
 		howToGet InfoView = howToGet.getInstance();
 		RelativeLayout infoParentLayout = InfoView.setInflater(mInflater);

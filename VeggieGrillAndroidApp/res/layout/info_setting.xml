@@ -136,5 +136,10 @@
         android:layout_centerInParent="true"
         android:indeterminateDrawable="@drawable/progress_spinner"
         android:visibility="gone" />
+    
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setting_bg"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

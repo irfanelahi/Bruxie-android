@@ -398,6 +398,42 @@
                     android:src="@drawable/info_pg_line" />
             </RelativeLayout>
             
+            <RelativeLayout
+                android:id="@+id/myAccountBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/myaccount_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="MY ACCOUNT"
+                    android:textColor="#f00"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingBottom="15dp"
+                    android:src="@drawable/info_pg_arrow"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/myaccount_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/info_pg_line" />
+            </RelativeLayout>
+            
             <!-- 
             <RelativeLayout
                 android:id="@+id/faqButton"

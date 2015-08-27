@@ -18,7 +18,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:text="Activity"
+            android:text="ACTIVITY"
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="10dp" />
@@ -77,7 +77,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"
-                        android:text="PAYMENT ACTIVITY" />
+                        android:text="ACTIVITY" />
 
                     <ImageView
                         android:id="@+id/image_activity_line"

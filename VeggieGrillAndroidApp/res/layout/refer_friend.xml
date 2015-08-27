@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:background="#ffffff" >
 
-   <RelativeLayout
+    <RelativeLayout
         android:id="@+id/topBar"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
@@ -18,34 +18,27 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginTop="15dp"
-            android:text="Tell A FRIEND"
+            android:text="TELL A FRIEND"
             android:textColor="@color/white"
             android:textSize="10dp" />
-   
-        
-        <RelativeLayout
-           android:layout_width="50dp"
-           android:layout_height="50dp"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-           android:id="@+id/backarrow"
-           
-           >
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="5dp"
-            android:src="@drawable/btn_back" />
 
-    </RelativeLayout>
-        
-        
-        
+        <RelativeLayout
+            android:id="@+id/backarrow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/btn_back" />
         </RelativeLayout>
-    
-   
+    </RelativeLayout>
+
     <LinearLayout
         android:id="@+id/titlePageLayout"
         android:layout_width="wrap_content"
@@ -61,8 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="SHARE!"
-    />
+            android:text="SHARE!" />
 
         <TextView
             android:id="@+id/referFriendDesc"
@@ -70,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:gravity="center"
-            android:text="Share the Bruxie app with\na friend and you&apos;ll both earn a surprise\nwhen your friend uses the app!"
+            android:text="Share the Bruxie app with a friend and you&apos;ll\n both get a treat when your friend uses the app!"
             android:textSize="15dp" />
     </LinearLayout>
 
@@ -81,10 +73,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/titlePageLayout"
-        android:layout_marginTop="20dp"
-        android:textStyle="bold"
+        android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
-        android:text="SHARE VIA:" />
+        android:text="SHARE VIA:"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -93,7 +85,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal|top"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="vertical" >
 

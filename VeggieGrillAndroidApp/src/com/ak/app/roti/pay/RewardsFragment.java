@@ -343,10 +343,10 @@ Rewards.getInstance().showPrmocode("reward");
 
 	public void createRewardView(ArrayList<RewardsBean> listRewardsBean) {
 		//Toast.makeText(mActivity, String.valueOf(listRewardsBean.size()),Toast.LENGTH_LONG).show();
-		
+
 		for (int i = 0; i < listRewardsBean.size(); i++) {
 
-			
+
 			RewardsBean myRewardsBean = listRewardsBean.get(i);
 
 			LinearLayout cellViewMainLayout = (LinearLayout) mInflater.inflate(
@@ -360,20 +360,20 @@ Rewards.getInstance().showPrmocode("reward");
 			final TextView dateText = (TextView) cellViewMainLayout
 					.findViewById(R.id.enjoy_mygodie_reward_list_date);
 			dateText.setVisibility(View.GONE);
-AppConstants.gothamNarrowMediumTextView(titleTextView, 16, AppConstants.COLOR_LIGHT_GRAYBLACK,  mActivity.getAssets());
+			AppConstants.gothamNarrowMediumTextView(titleTextView, 16, AppConstants.COLOR_LIGHT_GRAYBLACK,  mActivity.getAssets());
 
-AppConstants.gothamNarrowBookTextView(dateText, 14, AppConstants.COLOR_LIGHT_GRAYBLACK,  mActivity.getAssets());
+			AppConstants.gothamNarrowBookTextView(dateText, 14, AppConstants.COLOR_LIGHT_GRAYBLACK,  mActivity.getAssets());
 
-AppConstants.gothamNarrowBookTextView(dateTextView, 14, AppConstants.COLOR_LIGHT_GRAYBLACK,  mActivity.getAssets());
+			AppConstants.gothamNarrowBookTextView(dateTextView, 14, AppConstants.COLOR_LIGHT_GRAYBLACK,  mActivity.getAssets());
 
 
-//			AppConstants.fontAmaticBold(titleTextView, 20,
-//					AppConstants.colorWhite, mActivity.getAssets());
-//			AppConstants.fontAmaticBold(dateTextView, 20,
-//					AppConstants.colorWhite, mActivity.getAssets());
-//
-//			AppConstants.fontAmaticBold(dateText, 16, AppConstants.colorWhite,
-//					mActivity.getAssets());
+			//			AppConstants.fontAmaticBold(titleTextView, 20,
+			//					AppConstants.colorWhite, mActivity.getAssets());
+			//			AppConstants.fontAmaticBold(dateTextView, 20,
+			//					AppConstants.colorWhite, mActivity.getAssets());
+			//
+			//			AppConstants.fontAmaticBold(dateText, 16, AppConstants.colorWhite,
+			//					mActivity.getAssets());
 
 			RelativeLayout cellParent = (RelativeLayout) cellViewMainLayout
 					.findViewById(R.id.enjoy_mygodie_reward_list_parent_reward);
