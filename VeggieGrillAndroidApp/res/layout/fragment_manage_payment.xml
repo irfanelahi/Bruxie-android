@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/title_red" >
+
+        <TextView
+            android:id="@+id/topTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="Payment Managment"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </RelativeLayout>
+   
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_manage_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_line"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edit_card_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="CARD NUMBER"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:background="@drawable/promo_btn_gray"
+                        
+                android:maxLength="19"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="19dp" />
+
+            <EditText
+                android:id="@+id/text_date_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="MM/YYYY"
+                android:imeOptions="actionNext"
+                android:background="@drawable/promo_btn_gray"
+                        
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_zip_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:hint="ZIPCODE"
+                android:background="@drawable/promo_btn_gray"
+                        
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:maxLength="5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_cvv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="CVV NUMBER"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="19dp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/layoutpl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+              >
+
+                <Spinner
+                    android:id="@+id/spinner_payment_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/promo_btn_gray"
+                        
+                    android:paddingRight="10dp" />
+
+                <EditText
+                    android:id="@+id/tamp_payment_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="15dp"
+                    android:src="@drawable/dropdown_arrow" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+             />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,235 @@
+<resources>
+
+    <string name="facebook_app_id">1386530961645624</string>
+    <string name="app_name">Bruxie</string>
+
+    <!-- Splash -->
+
+    <string name="imagecontent">a</string>
+    <string name="viewrewards">VIEW REWARDS</string>
+    <string name="referafriend">REFER A FRIEND</string>
+    <string name="socialize">SOCIALIZE</string>
+    <string name="whackamel">Whack-\na-Mel</string>
+
+    <!-- Snap Start -->
+
+
+    <!-- Splash -->
+
+    <string name="howtogetrewards">HOW TO GET REWARDS</string>
+    <string name="eatenjoy">Enjoy a healthy and delicious meal at Corner Bakery Cafe. Save your receipt.</string>
+    <string name="snaptakepic">Take a picture of your receipt to earn Corner Bakery Cafe Rewards points</string>
+    <string name="claimuseyour">Use your points to get awesome rewards!</string>
+    <!-- <string name="eatenjoy">Eat. Enjoy a healthy and delicious meal at Roti. Save your receipt.</string> -->
+    <!-- <string name="snaptakepic">Snap. Take a picture of your receipt to earn Roti Rewards points</string> -->
+    <!-- <string name="claimuseyour">Claim. Use your points to get awesome rewards!</string> -->
+
+
+    <!-- Snap Start -->
+
+
+    <!-- Snap location -->
+
+    <string name="earnpoints">EARN POINTS</string>
+    <string name="selectlocationtosubmitreceipt">SELECT LOCATION TO SUBMIT RECEIPT</string>
+
+    <!-- Info -->
+
+    <string name="tapbuttontosendlovetext">Tap button to send the <i>Love</i></string>
+    <string name="aboutroti">ABOUT ROTI</string>
+    <string name="locations">LOCATIONS</string>
+    <string name="Back">Back</string>
+    <string name="rewaredsmore">Redeem the Love</string>
+    <string name="rewards_page_redeem_text">Redeem the <i>LOVE</i>\n(in-store only)</string>
+    <string name="rewardspoints">Your total points</string>
+    <string name="viewactivity">View activity</string>
+    <string name="faqinfo">FAQ</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="contactus">CONTACT US</string>
+    <!-- <string name="setting"></string> -->
+    <string name="signupemail">Sign up with email</string>
+    <string name="email">EMAIL</string>
+    <string name="firstname">First Name*</string>
+    <string name="lastname">Last Name*</string>
+    <string name="password">Password</string>
+    <string name="forgotpassword">Forgot your password?</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="terms">Terms of Use</string>
+    <string name="sep"> | </string>
+    <string name="loginplease">PLEASE LOG IN</string>
+    <string name="promogot">Got a promo code from us?</string>
+    <string name="promoenter">Please enter your code here.</string>
+    <string name="promoCase">(Case sensitive. No spaces.)</string>
+    <string name="promoContact">Code not working? </string>
+    <string name="promocode_edit_contactus_link">Contact Us.</string>
+    <string name="promocode">PROMO CODE</string>
+    <string name="promocodeinfo">PROMO CODE</string>
+    <string name="myaccount">MY ACCOUNT</string>
+    <string name="oldpassword">OLD PASSWORD</string>
+    <string name="newpassword">NEW PASSWORD</string>
+    <string name="repeatpassword">REPEAT PASSWORD</string>
+    <string name="termsofuse">Terms of Use </string>
+    <string name="termsofusecontent">Terms of Use Page </string>
+    <string name="FOODTHATLOVESYOUbACK">FOOD THAT LOVES YOU BACK</string>
+    <string name="AboutUsQ">Is there any human emotion more powerful than love?</string>
+    <string name="AboutText" formatted="false">Corner Bakery Cafe is the perfect place to feed your cravings.\n\nWe’re serving up your favorites like made-to-order scramblers, grilled panini, hand tossed salads, homemade soups, hearty pastas and freshly baked sweets.  Stop by today and enjoy all of the flavors you crave.</string>
+    <string name="WELCOMETOROTI">WELCOME TO ROTI</string>
+    <string name="HAVEAREFERRAL">HAVE A REFERRAL?</string>
+    <string name="tapfbbutton">Tap the button to continue without a referral code</string>
+    <string name="Refercodeoptional">REFERRAL CODE (OPTIONAL)</string>
+    <string name="SIGNUPWITHEMAIL">Sign up with Email</string>
+    <string name="PLEASELOGIN">PLEASE LOG IN</string>
+    <string name="LOGOUT">Logout</string>
+    <string name="LOGIN">Login</string>
+    <string name="ChangePassword">Reset password</string>
+    <string name="signuptermstext">By clicking the \"Sign in\" or \"Sign up\" buttons\nyou are indicating that you have read and agree to the                             </string>
+    <!-- <string name="signuptermstext">By clicking the "Sign in" or "Sign up" buttons below you are indicating that you have read and agree to the</string> -->
+    <string name="signuptermstextterms">Terms of Use</string>
+    <string name="signuptermstextand"> and </string>
+    <string name="signuptermstextpolicy">Privacy Policy.</string>
+    <!-- Info -->
+    <string name="promocode_page_title">Promo Code</string>
+    <string name="locationinfo">LOCATIONS</string>
+    <string name="receipt_rejected">Your Receipt was rejected. Please contact support for more details.</string>
+    <string name="receipt_receive">Your receipt has been received. We will begin processing the image soon.</string>
+    <string name="receipt_process">Your receipt is processed and pending decision.</string>
+    <string name="info_how_to_receive_love">How to receive some <i>Love</i></string>
+    <!-- <string name=""></string> -->
+    <!-- <string name=""></string> -->
+    <!-- <string name=""></string> -->
+    <!-- <string name=""></string> -->
+    <!-- <string name=""></string> -->
+    <!-- <string name=""></string> -->
+    <string name="text_snap">Take a picture of your receipt \nand submit it to earn \nCorner Bakery Cafe Love and more</string>
+
+    <!-- "Receipt Rejected Error" = ""; -->
+    <!-- "Receipt Received Prompt" = ""; -->
+    <!-- "Receipt Pending Decision Prompt" = ""; -->
+
+    <string name="chooseuptothree">CHOOSE UPTO THREE</string>
+    <string name="daysleft">DAYS LEFT</string>
+    <string name="doacharity">DO A CHARITY RUN/WALK</string>
+    <string name="eatatzoes">EAT AT ROTI</string>
+    <string name="returningusers">RETURNING USERS</string>
+    <string name="enteremal">Enter your Email</string>
+    <string name="tweet">Tweet</string>
+    <string name="postfb">Post to Facebook</string>
+    <string name="cancel">Cancel</string>
+    <string name="freebr">FREE</string>
+    <string name="mygoodiesredeam">Tap the buttons below to redeem or remove</string>
+    <string name="takehome">TAKE HOME TUB</string>
+    <string name="choiceofentree">CHOICE OF ENTEREE</string>
+    <string name="num5">5</string>
+    <string name="x">X</string>
+
+    <!-- Zoes HISTORY -->
+    <string name="HISTORY1">\"Life\" as we know it</string>
+    <!-- &#8212; -->
+
+    <!-- <string name="showcshier">SHOW SCREEN TO CASHIER</string> -->
+    <string name="showcshier">Please present this to your cashier at time of purchase. Not redeemable for cash. Non-transferable</string>
+    <string name="showcshierredeemed">Your reward has been redeemed. You can no longer use this reward.</string>
+    <string name="reedeemable">(REEDEEMABLE IN-STORE)</string>
+    <string name="storeaddress">a </string>
+    <string name="timeremaining">TIME REMAINING</string>
+    <string name="time">1</string>
+    <string name="code">CODE: </string>
+    <string name="codeval">2</string>
+    <string name="reedeemd">REEDEEMD</string>
+    <string name="sucess">Success</string>
+    <string name="thank">Thank you!</string>
+    <string name="receivedreceiptthank">We appreciate your <i>Loveback</i>.</string>
+    <string name="receivedreceipt">We\'ve received your receipt.</string>
+    <string name="dinein">Dine in</string>
+    <string name="takeout">Take out</string>
+    <string name="pleaserate">Please rate your overall experience today.</string>
+    <string name="wasyourmeal">Was your meal simple, tasty, fresh?</string>
+    <string name="didtheteam">Did the team share Southern Hospitality?</string>
+    <string name="whatyouthink">Give us some Loveback!</string>
+    <string name="phottotip">RECEIPT PHOTO TIPS</string>
+    <string name="phottotip1">• Place receipt on a flat surface</string>
+    <string name="phottotip2">• Use adequate lighting</string>
+    <string name="phottotip3">• Make sure text is not blurry</string>
+    <string name="pleaselineup">PLEASE LINE UP YOUR RECEIPT</string>
+    <string name="wait">Please Wait&#8230;</string>
+    <string name="uploading">We\'re uploading your receipt</string>
+    <string name="Retake">Retake</string>
+    <string name="Use">Use</string>
+    <string name="Usesubmit">Submit</string>
+    <string name="Preview">Preview</string>
+    <string name="whendone">WHEN DONE, HIT BACK BUTTON</string>
+    <string name="Sprinkling">Sprinkling </string>
+    <string name="throughouttheweek">throughout the week can spice up any routine!</string>
+    <string name="Completeagoalmight">Complete a goal might even lead to a </string>
+    <string name="surprise">surprise!</string>
+    <string name="Getstartedby">Get started by picking</string>
+    <string name="threeareas">3 areas</string>
+    <string name="tofocuson">to focus on&#8230;</string>
+    <string name="taptoenlarge">(TAP TO ENLARGE)</string>
+    <string name="taptoreturn">(TAP ON IMAGE TO RETURN)</string>
+    <string name="goalcongratulation">Congratulations!</string>
+    <string name="goaldescription">goaldescription</string>
+    <string name="goaltitle">goaldescription</string>
+    <!-- <string name="goaltap">Tap the button below to see your new reward!</string> -->
+    <string name="goaltap">You\'ll get an email when your new goodie is ready to be redeemed!</string>
+    <string name="claimmessageheader">Did our staff get your code?</string>
+    <string name="claimmessages">Do NOT exit this page until the cashier has seen your 3-digit code. \n\nTapping \"Continue\" will return you to a prior screen. You will not be able to access this code again.</string>
+    <string name="signupheader">Please confirm that your email address is  \n</string>
+    <string name="signupmessages">. \n\nWe will use this email address to let you know when you have earned rewards.</string>
+
+    <!-- <string name="claimmessageheader">Are you done?</string> -->
+    <!-- <string name="claimmessages">Do NOT exit this page until the cashier has seen your 3-digit code. \n\n Tapping \"Continue\" will return you to My Goddies. You will not be able to access this code again.</string> -->
+
+
+    <!-- <string name="">Tap the buttons below to redeem or remove</string> -->
+    <string name="zoesstoryheader">\"Life\" as we know it</string>
+    <!-- <string name="zoesstory">Zoës Kitchen is a natural extension of Zoë Cassimus\' lifetime of cooking for family and friends. Inspired by Zoë\'s original recipes and her simple, fresh-from-the-garden sensibility, we start every day by making the food from scratch onsite at each restaurant. Our dishes are wholesome; our portions generous. Born in the Mediterranean and raised in the South with customers\' dietary concerns in mind-nothing fried with gluten-free and vegetarian options. Zoë means \"life\" in Greek. Live it to the fullest with tasty food shared among close friends and family at Zoës.</string> -->
+    <!-- <string name=""></string> -->
+    <!-- <string name=""></string> -->
+    <!-- <string name=""></string> -->
+
+
+    <!-- text phone -->
+    <string name="signuptext">We do NOT share personally identifiable information, like your phone number or email address, with third parties. We will email you when you have earned rewards or with occasional VG offers. Your phone number may be used by our staff to help award you points at the register.</string>
+
+    <!-- FAQ -->
+    <!-- <string name="FAQDiscription">At Zoës we think life is meant to be celebrated with great food, friends and fun\!\ We believe that part of getting the most out of life is setting realistic goals to be healthy, spend time with loved ones, lifelong learning, and giving back to the community. One of the BEST parts of setting goals is treating yourself when you’ve reached them.\nThat’s what this app is all about. We hope that you’ll it helpful in getting more out of life, treats and all!\n\nTo participate in the LIFE Challenge:\nEach week you can complete up to 7 challenges customized for you by Zoës. Simply tap on the Life Goals tab and you’ll be prompted to choose up to 3 goal areas. A week’s worth of challenges will be determined by your selected goal areas and will refresh every Sunday with a new set of challenges. Do as many as you can, but don’t worry if you can’t complete them all – we know your life is busy!\n\nAfter you’ve performed one of your weekly challenges, mark it as complete by tapping on the check box next to it. You’ll see your cup of Limeade fill a bit and once the cup is full you’re eligible for a Goodie from Zoës!\nYou can change your Goal Areas at any time by scrolling to the bottom of your weekly challenge list.</string> -->
+    <string name="FAQQ1">How does this work?</string>
+    <string name="FAQQ2">How do I know how many points I have?</string>
+    <string name="FAQA2">Tap the Love tab on the navigation bar. There you can track how many points you have and how far away you are from being able to redeem the <i>Love</i>. Green-colored rewards are ready to be redeemed. Light green-colored rewards are ones you are still working towards earning – when you have enough points to redeem one of these rewards, it will turn green.</string>
+    <string name="FAQQ3">How do I redeem the <i>Love</i>?</string>
+    <string name="FAQA3">In the Love tab, tap on any Green-colored reward that you want to redeem and it will instantly turn into a digital reward that you can present to the cashier at check-out. Click on “Redeem the <i>Love</i>” when you are in line to order, and then “Confirm” when you are IN FRONT OF THE CASHIER. You will have a couple minutes to show the cashier your unique code.</string>
+    <string name="FAQQ4">How do I use my digital voucher?</string>
+    <string name="FAQA4">Just tap the blue Redeem reward button that appears after you’ve selected the reward you’d like to redeem.  Show your phone to the cashier.  Once you have redeemed your reward you cannot redeem it again until you have accumulated enough points to do so. You’ll need to be connected to your mobile network in order for the voucher to successfully be redeemed.</string>
+    <string name="FAQQ5">I\'m having trouble uploading my receipt from the app. What do I do?</string>
+    <string name="FAQA5">Email the image receipt to us along with your account email address (the one you use for log in) to CornerBakery@rlvt.net.</string>
+    <string name="FAQQ6">Can I make some suggestions?</string>
+    <string name="FAQA6">Sure! We\'d be happy to hear from you at CornerBakery@rlvt.net.</string>
+    <string name="reward_acess_email">To continue sign up for the rewards program Please grant access to email address.</string>
+    <string name="FAQ_A">Meet Steve and Alexis Schulz - a couple with a passion for healthy living and compassion for their community; destined to bring goodness onto a world of unhealthy consumption. On their quest for the perfect morning, tart-your-day-drink (a nutritious, yet tasty alternative to coffee), Steve and Alexis found their choices were sugar to none. Thinking outside the juice box, Steve and Alexis decided to create a simple blueprint for an all-natural.</string>
+
+    <!-- <string name=""></string> -->
+
+    <string name="first_line_eat_desc_tutorial">Lorem ipsume dolor sit amet</string>
+    <string name="second_line_eat_desc_tutorial">adipisicing elit, sed do eiusmod tempor</string>
+    <string name="third_line_eat_desc_tutorial">incididunt ut labore et dolore.</string>
+    <string name="first_line_snap_desc_tutorial">Lorem ipsume dolor sit amet</string>
+    <string name="second_line_snap_desc_tutorial">adipisicing elit, sed do eiusmod tempor</string>
+    <string name="third_line_snap_desc_tutorial">incididunt ut labore et dolore.</string>
+    <string name="first_line_rewards_desc_tutorial">Lorem ipsume dolor sit amet</string>
+    <string name="second_line_rewards_desc_tutorial">adipisicing elit, sed do eiusmod tempor</string>
+    <string name="third_line_rewards_desc_tutorial">incididunt ut labore et dolore.</string>
+    <string name="enterBarcodeEdit">TYPE BARCODE NUMBER</string>
+    <string name="menu_settings">menu_settings</string>
+    <string name="redemption_text">To Claim your Reward, ask your server for your check. Scan the barcode printed on your check and your Reward will be deducted from your check automatically.</string>
+    <string name="hashtag">#MellowKarMMa</string>
+    <string name="reward_redeemed_second_text">Your NEW check\nbalance due is :</string>
+    <string name="reward_redeemed_third_text">$000.000</string>
+    <string name="confirmation_page_title">THANK YOU FOR YOUR\nFEEDBACK!</string>
+    <string name="cant_give_provide_feedback">YOUR LOYALTY POINTS WILL\nBE PROCESSED SOON!</string>
+    <string name="redeem_desc">Click \"Redeem Now\" once you\'re ready to pay for your order and present the barcode to your cashier. This reward cannot be combined with other rewards</string>
+    <string name="redeemed_reward_desc">Please present this to your cashier\nat time of purchase</string>
+    <string name="scan_disc">When you’re ready to pay just tap “Scan” and show your barcode to the cashier to earn a fruit for each purchase you make. Simple, right?</string>
+
+    <string name="title_activity_location">Location</string>
+</resources>

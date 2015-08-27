@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   
+    <RelativeLayout
+        android:id="@+id/signup_relative_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/title_red" >
+
+        <TextView
+            android:id="@+id/topTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="REDEEM REWARD"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+       <RelativeLayout
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+           android:id="@+id/backarrow"
+           
+           >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/btn_back" />
+
+    </RelativeLayout>
+    </RelativeLayout>
+    
+       
+    <LinearLayout
+        android:id="@+id/qrcode_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/signup_relative_header"
+       android:background="@color/white"
+        android:gravity="center_horizontal"
+       
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/barcodeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="0dp" >
+
+            <ImageView
+                android:id="@+id/QRCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="0dp"
+                 android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/userCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QRCode"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                  android:textColor="@color/black" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qrcode_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/rewardText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="REWARD"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/dotted_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_list"
+        android:layout_alignLeft="@+id/button_list"
+        android:layout_alignRight="@+id/button_list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:visibility="gone"
+        android:src="@drawable/dotted_line_short" />
+
+    <RelativeLayout
+        android:id="@+id/button_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/doneBtn"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/rewards_fb_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/rewards_fb_button" />
+
+        <ImageView
+            android:id="@+id/line_fb_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+          
+            android:layout_alignBottom="@+id/rewards_fb_button"
+            android:layout_alignTop="@+id/rewards_fb_button"
+            android:layout_marginLeft="2.5dp"
+            android:layout_toRightOf="@+id/rewards_fb_button"
+            android:src="@drawable/dotted_horizontal_line" />
+
+        <ImageView
+            android:id="@+id/rewards_twitter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+              android:visibility="gone"
+            android:layout_toRightOf="@+id/line_fb_button"
+            android:src="@drawable/rewards_twitter_button" />
+
+        <ImageView
+            android:id="@+id/line_twitter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rewards_fb_button"
+            android:layout_alignTop="@+id/rewards_fb_button"
+            android:layout_marginLeft="2.5dp"
+            android:layout_toRightOf="@+id/rewards_twitter_button"
+            android:src="@drawable/dotted_horizontal_line"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/rewards_ig_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_toRightOf="@+id/line_twitter_button"
+            android:src="@drawable/rewards_instgram_button"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/doneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:src="@drawable/redeemed_btn_done" />
+
+    <ProgressBar
+        android:id="@+id/greenProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/doneBtn"
+        android:layout_alignRight="@+id/doneBtn"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progress_spinner"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/qrcode_background"
+        android:background="@drawable/line_threecolors" />
+
+    <TextView
+        android:id="@+id/rewardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/view1"
+        android:text="T-SHIRT" />
+    
+    
+    <TextView
+        android:id="@+id/redeemDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rewardTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/redeemed_reward_desc" />
+
+</RelativeLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/loginoption_fb_relative_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/top_bar" >
+
+        <TextView
+            android:id="@+id/topTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="SIGN UP WITH FACEBOOK"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginoption_fb_relative_header"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="15dp" >
+
+            <TextView
+                android:id="@+id/signinText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="SIGN IN"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/fb_logo" />
+
+            <LinearLayout
+                android:id="@+id/loginoption_fb_linear_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center" >
+
+                    <EditText
+                        android:id="@+id/loginoption_fb_edittext_first_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/loginoption_fb_image_facebook"
+                        android:layout_alignRight="@+id/loginoption_fb_image_facebook"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/promo_btn_gray"
+                        android:ellipsize="start"
+                        android:gravity="center_vertical"
+                        android:hint="First Name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLength="20"
+                        android:padding="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/loginoption_fb_edittext_last_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/loginoption_fb_image_facebook"
+                        android:layout_alignRight="@+id/loginoption_fb_image_facebook"
+                        android:layout_below="@+id/loginoption_fb_edittext_first_name"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/promo_btn_gray"
+                        android:ellipsize="start"
+                        android:gravity="center_vertical"
+                        android:hint="Last Name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLength="20"
+                        android:padding="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/layoutdob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/loginoption_fb_image_facebook"
+                        android:layout_alignRight="@+id/loginoption_fb_image_facebook"
+                        android:layout_below="@+id/loginoption_fb_edittext_last_name"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/promo_btn_gray"
+                        android:padding="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <TextView
+                            android:id="@+id/textviewdob"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:hint="Birthday"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/edit_tamp_dob"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/loginoption_fb_edittext_ZipCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/loginoption_fb_image_facebook"
+                        android:layout_alignRight="@+id/loginoption_fb_image_facebook"
+                        android:layout_below="@+id/layoutdob"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/promo_btn_gray"
+                        android:gravity="center_vertical"
+                        android:hint="Zipcode"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="5"
+                        android:padding="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/loginoption_fb_edittext_refercode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/loginoption_fb_image_facebook"
+                        android:layout_alignRight="@+id/loginoption_fb_image_facebook"
+                        android:layout_below="@+id/loginoption_fb_edittext_ZipCode"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/promo_btn_gray"
+                        android:ellipsize="start"
+                        android:gravity="center_vertical"
+                        android:hint="Referral Code (Optional)"
+                        android:imeOptions="actionDone"
+                        android:maxLength="200"
+                        android:padding="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:singleLine="true"
+                        android:textSize="18dp" />
+
+                    <LinearLayout
+                        android:id="@+id/marketingOptionCBLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/loginoption_fb_image_facebook"
+                        android:layout_alignRight="@+id/loginoption_fb_image_facebook"
+                        android:layout_below="@+id/loginoption_fb_edittext_refercode"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/marketingOptionCB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:checked="true" />
+
+                        <TextView
+                            android:id="@+id/optinText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"
+                            android:text="By providing your email address you are opting-in to receive email from our company and you may ask to stop receiving emails from us at anytime." />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/loginoption_fb_image_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/marketingOptionCBLayout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/signup_btn_facebook"
+                        android:contentDescription="@string/imagecontent" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

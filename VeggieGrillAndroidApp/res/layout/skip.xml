@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+           <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+           android:layout_below="@+id/aboutroti_relative_header"
+            android:layout_centerHorizontal="true"
+         />
+
+   
+    <RelativeLayout
+        android:id="@+id/aboutroti_relative_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_red" >
+
+        <TextView
+            android:id="@+id/topTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+         android:text="HOW DID WE DO?"
+               android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+        <RelativeLayout
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+           android:id="@+id/backarrow"
+           
+           >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/btn_back" />
+
+    </RelativeLayout>
+        
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/thankyou_bg_box" >
+    <TextView
+        android:id="@+id/thanku"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:text="MAYBE " />
+
+    <TextView
+        android:id="@+id/thanku2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+     
+        android:layout_below="@+id/thanku"
+        android:layout_marginTop="5dp"
+        android:text="NEXT TIME!" />
+    </RelativeLayout>
+    
+   
+</RelativeLayout>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/signup_relative_header"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/title_red" >
+
+        <TextView
+            android:id="@+id/topTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_relative_header"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/signUpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="SIGN UP WITH EMAIL"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp" >
+
+                <EditText
+                    android:id="@+id/signup_edit_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/promo_btn_gray"
+                    android:ellipsize="start"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:hint="Email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress|textNoSuggestions|textFilter"
+                    android:maxLength="200"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/signup_edit_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_below="@+id/signup_edit_email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/promo_btn_gray"
+                    android:ellipsize="start"
+                    android:gravity="center_vertical"
+                    android:hint="Password"
+                     android:singleLine="true"
+                   
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLength="200"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/signup_edit_first_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_below="@+id/signup_edit_password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/promo_btn_gray"
+                    android:ellipsize="start"
+                    android:gravity="center_vertical"
+                    android:hint="First Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="20"
+                  
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/signup_edit_last_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_below="@+id/signup_edit_first_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/promo_btn_gray"
+                    android:ellipsize="start"
+                    android:gravity="center_vertical"
+                    android:hint="Last Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/layoutdob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_below="@+id/signup_edit_last_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/promo_btn_gray"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:id="@+id/textviewdob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:hint="Birthday"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/edit_tamp_dob"
+                        android:layout_width="wrap_content"
+                    android:maxLength="200"
+                 
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/signup_edit_ZipCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                 
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_below="@+id/layoutdob"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/promo_btn_gray"
+                    android:gravity="center_vertical"
+                    android:hint="Zipcode"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/signup_edit_Refercodeoptional"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_below="@+id/signup_edit_ZipCode"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/promo_btn_gray"
+                    android:gravity="center_vertical"
+                    android:hint="Referral Code (Optional)"
+                    android:imeOptions="actionDone"
+                    android:maxLength="200"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/marketingOptionCBLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/signup_image_signup"
+                    android:layout_alignRight="@+id/signup_image_signup"
+                    android:layout_below="@+id/signup_edit_Refercodeoptional"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <CheckBox
+                        android:id="@+id/marketingOptionCB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:checked="true" />
+
+                    <TextView
+                        android:id="@+id/optinText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="By providing your email address you are opting in to receive email from our company and you may ask to stop receiving emails from us at any time." />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/signup_image_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/marketingOptionCBLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/signupemail_btn_signup"
+                    android:contentDescription="@string/imagecontent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/greenProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progress_spinner"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:attr/actionBarSize" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/divider"
+        android:layout_alignRight="@+id/divider"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/text_card_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                   android:background="@drawable/promo_btn_gray"
+         
+            android:layout_alignParentLeft="true"
+            android:text="Card Number: xxxx xxxx xxxx 0000" />
+
+        <TextView
+            android:id="@+id/text_expiring_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                   android:background="@drawable/promo_btn_gray"
+         
+            android:layout_alignParentRight="true"
+            android:text="Expiring: mm/yy" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/activity_divider" />
+
+    <ImageView
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/survey_btn_submit" />
+
+</RelativeLayout>
